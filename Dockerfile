@@ -45,7 +45,7 @@ RUN \
   if [ -z "$FEATURE_BRANCH" ] || [ "$FEATURE_BRANCH" = "null" ]; then \
 #    COPY mage_integrations /tmp/mage_integrations && \
 #     pip3 install --no-cache-dir /tmp/mage_integrations \
-    pip3 install --no-cache-dir "git+https://github.com/mage-ai/mage-ai.git@0.9.64#egg=mage-integrations&subdirectory=mage_integrations"; \
+    pip3 install --no-cache-dir "git+https://github.com/vikasgoyal31071992/mage-ai-64_test.git#egg=mage-integrations&subdirectory=mage_integrations"; \
   else \
     pip3 install --no-cache-dir "git+https://github.com/mage-ai/mage-ai.git@$FEATURE_BRANCH#egg=mage-integrations&subdirectory=mage_integrations"; \
   fi
